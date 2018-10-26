@@ -14,6 +14,7 @@ function Campo(props){
     return(
         <input 
         id={props.id}
+        className = "caixa-texto"
         type={props.type}
         name={props.name}
         placeholder={props.placeholder}>
